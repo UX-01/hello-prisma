@@ -16,7 +16,7 @@ npx tsc --init
 npm install prisma --save-dev
 npx prisma init --datasource-provider sqlite
 ```
-Our schema lives in `scheam.prisma` and they serve two purposes:
+Our schema lives in `schema.prisma` and they serve two purposes:
 
 - Represent the tables in the underlying database
 - Serve as a foundation for the generated  Prisma Client API
